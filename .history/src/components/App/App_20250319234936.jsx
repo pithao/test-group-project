@@ -10,7 +10,6 @@ import Nav from '../Nav/Nav';
 import HomePage from '../HomePage/HomePage';
 import LoginPage from '../LoginPage/LoginPage';
 import RegisterPage from '../RegisterPage/RegisterPage';
-import ClassSurvey from "../ClassSurvey/ClassSurvey"; 
 
 
 function App() {
@@ -98,10 +97,6 @@ function App() {
               <h2>404 Page</h2>
             } 
           />
-<Route 
-  exact path="/class-survey"
-  element={<ClassSurvey />}
-/>
         </Routes>
       </main>
       <footer>
