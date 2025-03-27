@@ -6,12 +6,16 @@
     "node": ">=18.x"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.0.0",
     "axios": "^1.6.8",
     "bcryptjs": "^2.4.3",
     "connect-pg-simple": "^9.0.1",
     "dotenv": "^16.0.3",
     "express": "^4.17.1",
     "express-session": "^1.18.0",
+    "firebase": "^11.5.0",
     "firebase-admin": "^13.2.0",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",

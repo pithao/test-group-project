@@ -102,10 +102,7 @@ function App() {
   exact path="/class-survey"
   element={<ClassSurvey />}
 />
-<Route path="/admin/surveys" element={<AdminSurveyView />} />
         </Routes>
-
-
       </main>
       <footer>
         <p>Copyright © {new Date().getFullYear()}</p>
